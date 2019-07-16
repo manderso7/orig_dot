@@ -1,0 +1,36 @@
+https://github.com/twpayne/chezmoi/blob/master/docs/QUICKSTART.md
+Adding new dir to chezmoi
+manderso on  master [?] took 11s 
+➜ chezmoi -v add .oh-my-zsh
+manderso on  master [?] 
+➜ chezmoi -v apply
+manderso on  master [?] 
+➜ chezmoi cd 
+chezmoi on  master [?] 
+➜ git add dot_oh-my-zsh/   
+
+chezmoi on  master [+] 
+➜ git commit -m "adding oh-my-zsh config"
+[master 07ef618] adding oh-my-zsh config
+ 5 files changed, 653 insertions(+)
+ create mode 100644 dot_oh-my-zsh/CODE_OF_CONDUCT.md
+ create mode 100644 dot_oh-my-zsh/CONTRIBUTING.md
+ create mode 100644 dot_oh-my-zsh/LICENSE.txt
+ create mode 100644 dot_oh-my-zsh/README.md
+ create mode 100644 dot_oh-my-zsh/oh-my-zsh.sh
+
+chezmoi on  master [⇡] 
+➜ git push -u origin master
+Username for 'https://github.com': manderso7
+Password for 'https://manderso7@github.com': 
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 10.44 KiB | 5.22 MiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/manderso7/orig_dot.git
+   71e6c27..07ef618  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
