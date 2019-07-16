@@ -1,0 +1,23 @@
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+# running beets import
+alias bi='beet import'
+
+# General
+alias vi="nvim"
+alias rip="youtube-dl --extract-audio --audio-format mp3"
+alias weather="curl wttr.in" #Check the weather
+
+# Change ownership of files
+alias take="sudo chown -R $(whoami):$(whoami)"
+
+# APT aliases
+if [ -x /usr/bin/apt ]; then
+	alias aptin="sudo apt install"
+	alias aptrm="sudo apt remove"
+fi
