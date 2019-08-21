@@ -17,7 +17,7 @@ compinit
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 export XFINITY_USER=mikea1528
-export XFINITY_PASSWORD=Wagonshark1
+export XFINITY_PASSWORD=********
 #Path to your oh-my-zsh installation.
   export ZSH="/home/manderso/.oh-my-zsh"
 
